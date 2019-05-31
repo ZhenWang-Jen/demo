@@ -6,7 +6,21 @@
           "title": "Sensitive Data Distribution by Data Sources",
           "subtitle": "",
           "axisY": "(Total Records)",
-          "axisX": "(Sensitive Info Type)"
+          "axisX": "(Sensitive Info Type)"，
+          "data": {
+            "labels": ["DS1", "DS2", "DS3", "DS4", "DS5", "DS6"],
+            "series": [
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4],
+                [2.5, 2.5, 4, 3, 2.5, 4]
+              ]
+          }
         },
         { 
           "id": 2,
