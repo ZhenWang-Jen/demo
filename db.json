@@ -22,10 +22,10 @@
               ],
               "type": "Bar",
               "options": {
-                  "stackBars": "true",
+                  "stackBars": true,
                   "seriesBarDistance": 10,
                   "axisX": {
-                      "showGrid": "false"
+                      "showGrid": false
                   },
                   "height": "245px"
               },
@@ -36,7 +36,6 @@
                           "seriesBarDistance": 5,
                           "axisX": {
                               "labelInterpolationFnc": "function(value) { return value[0]; }"
-
                           }
                       }
                   ]
