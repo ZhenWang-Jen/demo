@@ -8,17 +8,38 @@
           "axisY": "(Total Records)",
           "axisX": "(Sensitive Info Type)",
           "data": {
-            "labels": ["DS1", "DS2", "DS3", "DS4", "DS5", "DS6"],
-            "series": [
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4],
-                [2.5, 2.5, 4, 3, 2.5, 4]
+              "labels": ["DS1", "DS2", "DS3", "DS4", "DS5", "DS6"],
+              "series": [
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4],
+                  [2.5, 2.5, 4, 3, 2.5, 4]
+              ],
+              "type": "Bar",
+              "options": {
+                  "stackBars": "true",
+                  "seriesBarDistance": 10,
+                  "axisX": {
+                      "showGrid": "false"
+                  },
+                  "height": "245px"
+              },
+              "responsive": [
+                  [
+                      "screen and (max-width: 640px)",
+                      {
+                          "seriesBarDistance": 5,
+                          "axisX": {
+                              "labelInterpolationFnc": "function(value) { return value[0]; }
+
+                          }
+                      }
+                  ]
               ]
           }
         },
