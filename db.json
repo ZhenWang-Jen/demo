@@ -8,6 +8,7 @@
           "axisY": "(Total Records)",
           "axisX": "(Sensitive Info Type)",
           "data": {
+              "type": "Bar",
               "labels": ["DS1", "DS2", "DS3", "DS4", "DS5", "DS6"],
               "series": [
                   [2.5, 2.5, 4, 3, 2.5, 4],
@@ -20,7 +21,30 @@
                   [2.5, 2.5, 4, 3, 2.5, 4],
                   [2.5, 2.5, 4, 3, 2.5, 4]
               ],
-              "type": "Bar",
+              "legend": {
+                  "names": [
+                      "Swift code",
+                      "Email",
+                      "US Bank Account Number",
+                      "Phone",
+                      "SSN",
+                      "US Passport",
+                      "ABA Routing",
+                      "DOB",
+                      "Credit Card"
+                  ],
+                  "types": [
+                      "#35ACDE",
+                      "#E97150",
+                      "#48A66B",
+                      "#228FC2",
+                      "#6DC893",
+                      "#ED7F61",
+                      "#228FC2",
+                      "#48A66B",
+                      "#CC4F2D"
+                  ]
+              },
               "options": {
                   "stackBars": true,
                   "seriesBarDistance": 10,
