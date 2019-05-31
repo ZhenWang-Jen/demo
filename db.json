@@ -1,92 +1,92 @@
 {
-    "charts": {
-        "stackedBarCharts": [
-            { 
-                "id": 1,
-                "type": "Bar",
-                "title": "Sensitive Data Distribution by Data Sources",
-                "subtitle": "",
-                "axisY": "(Total Records)",
-                "axisX": "(Sensitive Info Type)",
-                "legend": [
-                    {
-                        "name": "Swift code",
-                        "color": "#35ACDE"
-                    },
-                    {
-                        "name": "Email",
-                        "color": "#E97150"
-                    },
-                    {
-                        "name": "US Bank Account Number",
-                        "color": "#48A66B"
-                    },
-                    {
-                        "name": "Phone",
-                        "color": "#228FC2"
-                    },
-                    {
-                        "name": "SSN",
-                        "color": "#6DC893"
-                    },
-                    {
-                        "name": "US Passport",
-                        "color": "#ED7F61"
-                    },
-                    {
-                        "name": "ABA Routing",
-                        "color": "#228FC2"
-                    },
-                    {
-                        "name": "DOB",
-                        "color": "#48A66B"
-                    },
-                    {
-                        "name": "Credit Card"
-                        "color": "#CC4F2D"
-                    }
-                ],
-                "labels": ["DS1", "DS2", "DS3", "DS4", "DS5", "DS6"],
-                "series": [
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4],
-                  [2.5, 2.5, 4, 3, 2.5, 4]
-              ],
-                "config": {
-                    "options": {
-                        "stackBars": true,
-                        "seriesBarDistance": 10,
-                        "axisX": {
-                            "showGrid": false
-                        },
-                        "height": "245px"
-                    },
-                    "responsive": [
-                        "screen and (max-width: 640px)",
-                        {
-                          "seriesBarDistance": 5,
-                          "axisX": {
-                              "labelInterpolationFnc": "function(value) { return value[0]; }"
-                          }
-                      }
-                    ]
-                }
-            }
+  "charts": {
+    "stackedBarCharts": [
+      {
+        "id": 1,
+        "type": "Bar",
+        "title": "Sensitive Data Distribution by Data Sources",
+        "subtitle": "",
+        "axisY": "(Total Records)",
+        "axisX": "(Sensitive Info Type)",
+        "legend": [
+          {
+            "name": "Swift code",
+            "color": "#35ACDE"
+          },
+          {
+            "name": "Email",
+            "color": "#E97150"
+          },
+          {
+            "name": "US Bank Account Number",
+            "color": "#48A66B"
+          },
+          {
+            "name": "Phone",
+            "color": "#228FC2"
+          },
+          {
+            "name": "SSN",
+            "color": "#6DC893"
+          },
+          {
+            "name": "US Passport",
+            "color": "#ED7F61"
+          },
+          {
+            "name": "ABA Routing",
+            "color": "#228FC2"
+          },
+          {
+            "name": "DOB",
+            "color": "#48A66B"
+          },
+          {
+            "name": "Credit Card",
+            "color": "#CC4F2D"
+          }
         ],
-      "horizontalBarCharts": [
-        { 
-          "id": 1,
-          "title": "Sensitive Data Distribution by Data Sources",
-          "subtitle": "",
-          "axisY": "(Total Records)",
-          "axisX": "(Sensitive Info Type)"
+        "labels": ["DS1", "DS2", "DS3", "DS4", "DS5", "DS6"],
+        "series": [
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4],
+          [2.5, 2.5, 4, 3, 2.5, 4]
+        ],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "seriesBarDistance": 10,
+            "axisX": {
+              "showGrid": false
+            },
+            "height": "245px"
+          },
+          "responsive": [
+            "screen and (max-width: 640px)",
+            {
+              "seriesBarDistance": 5,
+              "axisX": {
+                "labelInterpolationFnc": "function(value) { return value[0]; }"
+              }
+            }
+          ]
         }
-      ]
-    }
+      }
+    ],
+    "horizontalBarCharts": [
+      {
+        "id": 1,
+        "title": "Sensitive Data Distribution by Data Sources",
+        "subtitle": "",
+        "axisY": "(Total Records)",
+        "axisX": "(Sensitive Info Type)"
+      }
+    ]
+  }
 }
