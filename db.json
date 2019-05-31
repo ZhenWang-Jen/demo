@@ -81,11 +81,45 @@
     ],
     "horizontalBarCharts": [
       {
-        "id": 1,
+        "id": 4,
         "title": "Sensitive Data Distribution by Data Sources",
         "subtitle": "",
         "axisY": "(Total Records)",
         "axisX": "(Sensitive Info Type)"
+      }
+    ],
+    "donutPieCharts": [
+      {
+        "id": 2,
+        "type": "Pie",
+        "title": "Sensitive Info Type",
+        "subtitle": "(Count of Data Sources)",
+        "axisY": "",
+        "axisX": "",
+        "legend": [
+
+        ],
+        "labels": ["Swift code", "Email", "US Bank Account Number", "Phone", "SSN", "US Passport", "ABA Routing", "DOB", "Credit Card"],
+        "series": [4, 8, 4, 5, 2, 4, 5, 4, 3, 2],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "seriesBarDistance": 10,
+            "axisX": {
+              "showGrid": false
+            },
+            "height": "245px"
+          },
+          "responsive": [
+            "screen and (max-width: 640px)",
+            {
+              "seriesBarDistance": 5,
+              "axisX": {
+                "labelInterpolationFnc": "function(value) { return value[0]; }"
+              }
+            }
+          ]
+        }
       }
     ]
   }
