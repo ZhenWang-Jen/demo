@@ -82,11 +82,36 @@
     "horizontalBarCharts": [
       {
         "id": 4,
-        "title": "Sensitive Data Distribution by Data Sources",
-        "subtitle": "",
-        "axisY": "(Total Records)",
-        "axisX": "(Sensitive Info Type)"
-      }
+        "type": "Bar",
+        "title": "Inspection Coverage",
+        "subtitle": "(By Data Sources)",
+        "axisY": "(Data Sources)",
+        "axisX": "(Inspection coverage (%))",
+        "legend": [
+
+        ],
+        "labels": ["DS4", "DS3", "DS2", "DS1"],
+        "series": [40, 90, 43, 75],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "seriesBarDistance": 10,
+            "axisX": {
+              "showGrid": false
+            },
+            "height": "245px"
+          },
+          "responsive": [
+            "screen and (max-width: 640px)",
+            {
+              "seriesBarDistance": 5,
+              "axisX": {
+                "labelInterpolationFnc": "function(value) { return value[0]; }"
+              }
+            }
+          ]
+        }
+      },
     ],
     "donutPieCharts": [
       {
