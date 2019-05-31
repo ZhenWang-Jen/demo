@@ -120,6 +120,38 @@
             }
           ]
         }
+      },
+      {
+        "id": 3,
+        "type": "Pie",
+        "title": "Sensitive Category",
+        "subtitle": "(Count of Data Sources)",
+        "axisY": "",
+        "axisX": "",
+        "legend": [
+
+        ],
+        "labels": ["HIPAA", "FERPA", "Class3", "Class4", "Class5", "Class6", "Class7", "PCI", "PII"],
+        "series": [4, 8, 4, 5, 2, 4, 5, 4, 3, 2],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "seriesBarDistance": 10,
+            "axisX": {
+              "showGrid": false
+            },
+            "height": "245px"
+          },
+          "responsive": [
+            "screen and (max-width: 640px)",
+            {
+              "seriesBarDistance": 5,
+              "axisX": {
+                "labelInterpolationFnc": "function(value) { return value[0]; }"
+              }
+            }
+          ]
+        }
       }
     ]
   }
