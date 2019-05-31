@@ -1,7 +1,27 @@
 {
-  "id": "stackedBarChart1",
-  "title": "Sensitive Data Distribution by Data Sources",
-  "subtitle": "",
-  "axisY": "(Total Records)",
-  "axisX": "(Sensitive Info Type)"
+    "stackedBarCharts": [
+    { 
+      "id": 1,
+      "title": "Sensitive Data Distribution by Data Sources",
+      "subtitle": "",
+      "axisY": "(Total Records)",
+      "axisX": "(Sensitive Info Type)"
+    },
+    { 
+      "id": 2,
+      "title": "Sensitive Data Distribution by Data Sources",
+      "subtitle": "",
+      "axisY": "(Total Records)",
+      "axisX": "(Sensitive Info Type)"
+    }
+  ],
+  "horizontalBarCharts": [
+    { 
+      "id": 1,
+      "title": "Sensitive Data Distribution by Data Sources",
+      "subtitle": "",
+      "axisY": "(Total Records)",
+      "axisX": "(Sensitive Info Type)"
+    }
+  ]
 }
