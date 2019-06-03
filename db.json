@@ -194,8 +194,7 @@
             "stackBars": true,
             "horizontalBars": true,
             "axisX": {
-              "showGrid": false,
-              "labelInterpolationFnc": "function(value) { return (value.toFixed(0)) + 'k'; }"
+              "showGrid": false
             }
           },
           "responsive": [
