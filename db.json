@@ -122,8 +122,7 @@
         ],
         "labels": ["DS4", "DS3", "DS2", "DS1"],
         "series": [
-          [75, 45, 90, 35],
-          [25, 55, 10, 65]
+          [75, 45, 90, 35]
         ],
         "config": {
           "options": {
@@ -143,14 +142,41 @@
         "title": "Count of Sensitive Info Category",
         "subtitle": "(By Data Source)",
         "axisY": "(Data Source)",
-        "axisX": "( Count of unique Sensitive InfoType Categories)",
+        "axisX": "(Count of unique Sensitive InfoType Categories)",
         "legend": [
 
         ],
         "labels": ["DS4", "DS3", "DS2", "DS1"],
         "series": [
-          [75, 45, 90, 35],
-          [25, 55, 10, 65]
+          [75, 45, 90, 35]
+        ],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "horizontalBars": true,
+            "axisX": {
+              "showGrid": false
+            }
+          },
+          "responsive": [
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "type": "Bar",
+        "title": "Sensitive Data Record Count",
+        "subtitle": "(By Data Sources)",
+        "axisY": "(Data Source)",
+        "axisX": "(Count - Records/Rows Containing Sensitive Info)",
+        "legend": [
+
+        ],
+        "labels": ["DS4", "DS3", "DS2", "DS1"],
+        "series": [
+          [8, 15, 15, 10],
+          [45, 45, 65, 45],
+          [47, 40, 20, 45]
         ],
         "config": {
           "options": {
