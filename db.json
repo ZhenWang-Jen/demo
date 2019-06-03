@@ -107,13 +107,60 @@
             }
           },
           "responsive": [
-            "screen and (max-width: 640px)",
-            {
-              "seriesBarDistance": 5,
-              "axisX": {
-                "labelInterpolationFnc": "function(value) { return value[0]; }"
-              }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "type": "Bar",
+        "title": "Count of Sensitive Info Type",
+        "subtitle": "(By Data Sources)",
+        "axisY": "(Data Source)",
+        "axisX": "(Count of Unique Sensitive Info Types)",
+        "legend": [
+
+        ],
+        "labels": ["DS4", "DS3", "DS2", "DS1"],
+        "series": [
+          [75, 45, 90, 35],
+          [25, 55, 10, 65]
+        ],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "horizontalBars": true,
+            "axisX": {
+              "showGrid": false
             }
+          },
+          "responsive": [
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "type": "Bar",
+        "title": "Count of Sensitive Info Category",
+        "subtitle": "(By Data Source)",
+        "axisY": "(Data Source)",
+        "axisX": "( Count of unique Sensitive InfoType Categories)",
+        "legend": [
+
+        ],
+        "labels": ["DS4", "DS3", "DS2", "DS1"],
+        "series": [
+          [75, 45, 90, 35],
+          [25, 55, 10, 65]
+        ],
+        "config": {
+          "options": {
+            "stackBars": true,
+            "horizontalBars": true,
+            "axisX": {
+              "showGrid": false
+            }
+          },
+          "responsive": [
           ]
         }
       }
