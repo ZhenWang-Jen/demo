@@ -170,7 +170,18 @@
         "axisY": "(Data Source)",
         "axisX": "(Count - Records/Rows Containing Sensitive Info)",
         "legend": [
-
+          {
+            "name": "Class 1",
+            "color": "#35ACDE"
+          },
+          {
+            "name": "Class 2",
+            "color": "#E97150"
+          },
+          {
+            "name": "Class 3",
+            "color": "#FECF57"
+          }
         ],
         "labels": ["DS4", "DS3", "DS2", "DS1"],
         "series": [
