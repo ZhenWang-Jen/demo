@@ -99,11 +99,9 @@
           "options": {
             "stackBars": true,
             "horizontalBars": true,
-     
             "axisX": {
               "showGrid": false
-            },
-           
+            }
           },
           "responsive": [
             "screen and (max-width: 640px)",
