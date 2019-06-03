@@ -183,7 +183,8 @@
             "stackBars": true,
             "horizontalBars": true,
             "axisX": {
-              "showGrid": false
+              "showGrid": false,
+              "labelInterpolationFnc": "function(value) { return (value.toFixed(0)) + 'k'; }"
             }
           },
           "responsive": [
