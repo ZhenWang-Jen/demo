@@ -94,8 +94,12 @@
         "series": [[40, 90, 43, 75]],
         "config": {
           "options": {
-            "stackBars": true,
             "seriesBarDistance": 10,
+            "reverseData": true,
+            "horizontalBars": true,
+            "axisY": {
+              "offset": 70
+            },
             "axisX": {
               "showGrid": false
             },
