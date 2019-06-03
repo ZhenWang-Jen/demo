@@ -65,6 +65,9 @@
             "axisX": {
               "showGrid": false
             },
+            "axisY": {
+              "offset": 40
+            },
             "height": "245px"
           },
           "responsive": [
