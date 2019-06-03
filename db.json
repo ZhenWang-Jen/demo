@@ -128,12 +128,12 @@
         "series": [4, 8, 4, 5, 2, 4, 5, 4, 3, 2],
         "config": {
           "options": {
-            donut: true,
-            donutWidth: 30,
-            donutSolid: true,
-            startAngle: 270,
-            showLabel: true,
-            height: "200px"
+            "donut": true,
+            "donutWidth": 30,
+            "donutSolid": true,
+            "startAngle": 270,
+            "showLabel": true,
+            "height": "200px"
           },
             "height": "245px"
           },
@@ -162,12 +162,12 @@
         "series": [4, 8, 4, 5, 2, 4, 5, 4, 3, 2],
         "config": {
           "options": {
-            donut: true,
-            donutWidth: 30,
-            donutSolid: true,
-            startAngle: 270,
-            showLabel: true,
-            height: "200px"
+            "donut": true,
+            "donutWidth": 30,
+            "donutSolid": true,
+            "startAngle": 270,
+            "showLabel": true,
+            "height": "200px"
           },
             "height": "245px"
           },
