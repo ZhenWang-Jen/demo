@@ -99,13 +99,13 @@
           "options": {
             "stackBars": true,
             "horizontalBars": true,
-            "axisY": {
-              "offset": 70
-            },
+            //"axisY": {
+             // "offset": 70
+            //},
             "axisX": {
               "showGrid": false
             },
-            "height": "245px"
+            //"height": "245px"
           },
           "responsive": [
             "screen and (max-width: 640px)",
